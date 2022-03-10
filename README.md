@@ -13,6 +13,8 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 - Ayola
 - Cameron Porter
 - Vanessa
-- Nick
+- [Nick Twitter](https://twitter.com/instagrumguy) 
+- [Nick Projects](https://github.com/users/Takomane/projects/1)
+- [Nick Read Me](https://github.com/Takomane/Takomane)
 - Ryan Rose
 - Kenneth
