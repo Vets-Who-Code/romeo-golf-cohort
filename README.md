@@ -16,4 +16,4 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 
 [Github](https://github.com/AyolaM)
 
-[Git Project Board](https://github.com/users/AyolaM/projects/1)
+[Github Project Board](https://github.com/users/AyolaM/projects/1)
