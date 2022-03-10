@@ -21,6 +21,9 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
   - [Github Project Board](https://github.com/users/iNeso1984/projects/1)
 - Nick
 - Ryan Rose
+  - [Twitter](https://twitter.com/RyanRos79331176)
+  - [Github](https://github.com/rmrose78)
+  - [Github Project Board](https://github.com/users/rmrose78/projects/1)
 - Kenneth
   - [Twitter](https://www.twitter.com/mrdebonairfox)
   - [Github](https://www.github.com/kbrandon19)
