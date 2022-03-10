@@ -11,7 +11,10 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 ### Students
 
 - Ayola
-- Cameron Porter
+- Cameron
+	- [Twitter](https://twitter.com/Agohige_Tech)
+	- [Github](https://github.com/Agohige-Tech)
+	- [Github Project Board](https://github.com/users/Agohige-Tech/projects/1)
 - Vanessa
 - Nick
 - Ryan Rose
