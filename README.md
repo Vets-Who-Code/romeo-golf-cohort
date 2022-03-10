@@ -6,7 +6,7 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 
 ### Instructors
 
-- [Jerome Hardaway](www.twitter.com/jeromehardaway)
+- [Jerome Hardaway](https//:www.twitter.com/jeromehardaway)
 
 ### Students
 
