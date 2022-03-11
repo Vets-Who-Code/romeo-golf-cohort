@@ -20,9 +20,9 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
   - [Github](https://github.com/iNeso1984)
   - [Github Project Board](https://github.com/users/iNeso1984/projects/1)
 - Nick
- - [Twitter](https://twitter.com/instagrumguy) 
- - [Github](https://github.com/Takomane)
- - [Github Project Board](https://github.com/users/Takomane/projects/1)
+  - [Twitter](https://twitter.com/instagrumguy) 
+  - [Github](https://github.com/Takomane)
+  - [Github Project Board](https://github.com/users/Takomane/projects/1)
 - Ryan Rose
   - [Twitter](https://twitter.com/RyanRos79331176)
   - [Github](https://github.com/rmrose78)
