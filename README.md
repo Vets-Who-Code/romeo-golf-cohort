@@ -6,11 +6,18 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 
 ### Instructors
 
+- Jerome Hardaway
 - [Jerome Hardaway](https://www.twitter.com/jeromehardaway)
 
 ### Students
 
 - Ayola
+
+  - [Twitter](https://twitter.com/ayola_uyaphi)
+
+  - [Github](https://github.com/AyolaM)
+
+  - [Github Project Board](https://github.com/users/AyolaM/projects/1)
 - Cameron
   - [Twitter](https://twitter.com/Agohige_Tech)
   - [Github](https://github.com/Agohige-Tech)
