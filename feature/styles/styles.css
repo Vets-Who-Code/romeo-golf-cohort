@@ -173,6 +173,8 @@ i {
 .donate {
   padding: 0.5rem;
   width: 100%;
+  background-color: #1a51a3;
+  border: none;
 }
 .donate:hover {
   background-color: var(--hashflag-red);
