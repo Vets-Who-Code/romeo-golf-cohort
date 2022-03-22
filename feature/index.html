@@ -1,51 +1,112 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>#VetsWhoCode</title>
-  <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img src="https://res.cloudinary.com/vetswhocode/image/upload/v1609084190/hashflag-white-vscode_n5k5db.jpg" alt="" srcset="">
-      </div>
-      <button class="dark-mode">Dark Mode</button>
-      <ul>
-        <li>Home</li>
-        <ul>
-          <span>Our Story</span>
-          <li>About</li>
-          <li>Board</li>
-          <li>Team</li>
-          <ul>
-        <li>Sylabus</li>
-        <li>FAQ</li>
-        <ul>
-          <span>Apply</span>
-          <li>Student</li>
-          <li>Mentor</li>
-        </ul>
-        <ul>
-          <span>Media</span>
-          <li>Podcast</li>
-          <li>Blog</li>
-        </ul>
-        <ul>
-          <span>Resources</span>
-          <li>Job Search</li>
-          <li>Resume Generator</li>
-        </ul>
-        <li>Contact</li>
-        <li>Code Of Conduct</li>
-      </ul>
-      <button class="donate">Donate</button>
-    </nav>
-  </header>
-<!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#VetsWhoCode</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="dark-mode" onclick="dayNight()">
+            <i id="dark" class="fas fa-moon"></i>
+            <i id="light" class="fas fa-sun"></i>
+          </div>
+
+          <div id="toggle-icon">
+            <i class="fas fa-bars"></i>
+          </div>
+
+          <div class="logo">
+            <a href="https://www.vetswhocode.io">
+              <img
+                src="https://res.cloudinary.com/vetswhocode/image/upload/v1609084190/hashflag-white-vscode_n5k5db.jpg"
+                alt="hashflag logo"
+              />
+            </a>
+          </div>
+
+          <div id="menu" class="menu">
+            <ul class="links">
+              <li><a href="https://www.vetswhocode.io">Home</a></li>
+              <li class="parent">
+                <a href="#"
+                  >Our Story<span class="arrow-icon"
+                    ><i class="fas fa-caret-right"></i></span
+                ></a>
+                <ul class="child">
+                  <li><a href="https://www.vetswhocode.io/about">About</a></li>
+                  <li><a href="https://www.vetswhocode.io/board">Board</a></li>
+                  <li>
+                    <a href="https://www.vetswhocode.io/testimonials"
+                      >Testimonials</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="https://www.vetswhocode.io/syllabus">Syllabus</a>
+              </li>
+              <li><a href="">FAQs</a></li>
+              <li class="parent">
+                <a href="#"
+                  >Apply<span class="arrow-icon"
+                    ><i class="fas fa-caret-right"></i></span
+                ></a>
+                <ul class="child">
+                  <li>
+                    <a href="https://www.vetswhocode.io/apply">Student</a>
+                  </li>
+                  <li>
+                    <a href="https://www.vetswhocode.io/mentor">Mentor</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="parent">
+                <a href="#"
+                  >Media<span class="arrow-icon"
+                    ><i class="fas fa-caret-right"></i></span
+                ></a>
+                <ul class="child">
+                  <li>
+                    <a href="https://www.vetswhocode.io/podcast">Podcast</a>
+                  </li>
+                  <li><a href="https://www.vetswhocode.io/blog">Blog</a></li>
+                </ul>
+              </li>
+              <li class="parent">
+                <a href="#"
+                  >Resources<span class="arrow-icon"
+                    ><i class="fas fa-caret-right"></i></span
+                ></a>
+                <ul class="child">
+                  <li>
+                    <a href="https://www.vetswhocode.io/jobs">Job Search</a>
+                  </li>
+                  <li><a href="#">Resume Generator</a></li>
+                </ul>
+              </li>
+              <li><a href="https://www.vetswhocode.io/contact">Contact</a></li>
+              <li>
+                <a href="https://www.vetswhocode.io/code-of-conduct"
+                  >Code of Conduct</a
+                >
+              </li>
+              <li class="donate">
+                <a href="https://www.vetswhocode.io/donate">Donate</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--
   <section class="resume-generator-introduction">
     <h1>Resume Generator</h1>
     <img src="" alt="">
@@ -71,5 +132,7 @@
   </form>
 </section>
 -->
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>

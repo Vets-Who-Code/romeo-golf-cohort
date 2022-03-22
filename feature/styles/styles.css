@@ -1,64 +1,162 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/**************************************
+-------------- CSS Reset --------------
+**************************************/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
   background-color: var(--hashflag-white);
   color: var(--hashflag-blue);
   margin: auto 0;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
+/**************************************
+------------ Set Variables ------------
+**************************************/
+
 :root {
-  --hashflag-red: #C5203E;
+  --hashflag-red: #c5203e;
   --hashflag-blue: #091f40;
   --hashflag-white: #fafafa;
   --secondary-white: #eee;
-
 }
 
+/**************************************
+------------- Navigation -------------
+**************************************/
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: var(--hashflag-white);
+  padding: 10px;
+}
 nav {
+  /*
   background-color: var(--hashflag-blue);
   color: var(--hashflag-white);
   padding: 1rem;
@@ -70,10 +168,182 @@ nav {
   display: flex;
   justify-content: right;
   align-items: center;
+  /* New */
+  width: 100%;
+  background-color: var(--hashflag-blue);
 }
-nav>.logo>img {
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+  background-color: var(--hashflag-blue);
+  padding: 5px;
+}
+
+.logo > a > img {
   background-color: var(--hashflag-white);
   width: 50px;
   height: 50px;
-  border-radius: 50%
+  border-radius: 50%;
+}
+
+#toggle-icon {
+  display: none;
+}
+
+.menu {
+  width: 80%;
+  opacity: 0.85;
+}
+
+.menu .links {
+  width: 100%;
+  text-align: center;
+  background-color: var(--hashflag-blue);
+  color: #eee;
+}
+
+.menu .links li,
+.links ul li {
+  display: flex;
+  text-align: center;
+}
+
+.menu .links li a {
+  display: flex;
+  background-color: var(--hashflag-blue);
+  color: white;
+  letter-spacing: 1px;
+}
+
+.parent {
+  position: relative;
+  width: 90%;
+  text-align: center;
+}
+
+.parent a .arrow-icon {
+  display: inline-block;
+  transition: 0.4s;
+  margin-left: 5px;
+}
+
+.parent a .active-arrow-icon {
+  transform: rotate(90deg);
+}
+
+.parent .child {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  right: 0;
+  display: none;
+  color: white;
+}
+
+.parent .child ul li a {
+  background-color: transparent;
+  padding: 8px 10px;
+}
+
+.parent .child li {
+  width: 100%;
+  margin-top: 0;
+}
+
+/**************************************
+-------------- Mobile Nav --------------
+**************************************/
+
+@media (min-width: 319px) and (max-width: 767px) {
+  nav {
+    position: relative;
+  }
+  .container {
+    width: 100%;
+  }
+  #toggle-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--hashflag-white);
+  }
+  .dark-mode {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    background-color: var(--hashflag-white);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: black;
+  }
+  .dark-mode:hover {
+    background-color: var(--hashflag-red);
+    color: var(--hashflag-white);
+  }
+  .fa-moon {
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 6px;
+    display: block;
+  }
+  .fa-sun {
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 6px;
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+  }
+  .menu {
+    width: 100%;
+    display: none;
+    color: white;
+  }
+  .menu .links {
+    width: 100%;
+    text-align: right;
+    color: white;
+  }
+  .child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    background-color: var(--hashflag-blue);
+    width: 100%;
+    right: 0;
+  }
+  .menu .links li,
+  .parent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    background-color: var(--hashflag-blue);
+    width: 50%;
+    margin-left: auto;
+  }
+  .links button {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 25%;
+    margin-right: 23%;
+    background-color: var(--hashflag-white);
+    border-radius: 5px;
+  }
+  .links li a:hover {
+    color: var(--hashflag-red);
+  }
+  .links .donate a:hover {
+    background-color: lightgreen;
+    color: black;
+  }
 }
