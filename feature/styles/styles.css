@@ -1,79 +1,322 @@
+:root {
+  --hashflag-red: #c5203e;
+  --hashflag-blue: #091f40;
+  --hashflag-white: #fafafa;
+  --secondary-white: #eee;
+  --donation-blue: #203ec5;
+  --dropdown-bkg: #031228;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
   background-color: var(--hashflag-white);
   color: var(--hashflag-blue);
   margin: auto 0;
+  font-family: "Open Sans", sans-serif;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-:root {
-  --hashflag-red: #C5203E;
-  --hashflag-blue: #091f40;
-  --hashflag-white: #fafafa;
-  --secondary-white: #eee;
+body {
+  background-color: var(--hashflag-blue);
+}
 
+a {
+  text-decoration: none;
+  color: white;
 }
 
 nav {
-  background-color: var(--hashflag-blue);
   color: var(--hashflag-white);
-  padding: 1rem;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 100;
   display: flex;
   justify-content: right;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
   align-items: center;
 }
-nav>.logo>img {
+
+.logo-text {
+  padding: 5px;
+  letter-spacing: 0.2rem;
+}
+.fa {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+  padding-right: 20px;
+}
+
+.banner {
+  background-color: var(--hashflag-blue);
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+}
+
+.banner > span {
+  padding: 5px;
+}
+
+.logo > img {
   background-color: var(--hashflag-white);
   width: 50px;
   height: 50px;
-  border-radius: 50%
+  border-radius: 50%;
 }
+
+.nav-items > ul > li {
+  padding: 40px 0 0 5px;
+  cursor: pointer;
+}
+
+.sub-drop--items {
+  padding: 12px 1px 0 0;
+}
+
+.sub-drop--items > li {
+  padding: 24px 0 0 20px;
+  cursor: pointer;
+}
+
+.nav-items ul li a:hover {
+  border-bottom: 1px solid var(--secondary-white);
+  transition: all 0.3s;
+}
+
+#donate-text:hover {
+  border-bottom: 1px solid var(--secondary-white);
+  transition: all 0.3s;
+}
+
+.nav-itemsDonation > button {
+  border: none;
+  background: var(--donation-blue);
+  color: white;
+  font: inherit;
+  padding: none;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  padding-left: 5px;
+  margin: 20px 0 0 0;
+}
+
+button:hover {
+  background: var(--hashflag-red);
+}
+
+.HomeDarkMode {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+#nav-dropdown {
+  background-color: var(--dropdown-bkg);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  position: relative;
+  padding: 0 0 15px 0;
+  display: none;
+}
+
+#nav-dropdown.show {
+  display: block;
+}
+
+#drop-ourStory {
+  display: none;
+}
+#drop-ourStory.show {
+  display: block;
+}
+
+#drop-media {
+  display: none;
+}
+
+#drop-media.show {
+  display: block;
+}
+
+#drop-apply {
+  display: none;
+}
+
+#drop-apply.show {
+  display: block;
+}
+
+/* Dark Mode */
+body.dark-mode--body {
+  background-color: var(--hashflag-white);
+}
+
+button.dark-mode--donation {
+  background-color: var(--hashflag-red);
+}
+
+button:hover.dark-mode--donationHover {
+  background: var(--donation-blue);
+}
+
+/* Underline hover */
+
+/* Fade in - credi to https://css-irl.info/animating-underlines/ */
+/* .nav-items li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: hotpink;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.nav-items li:hover::after,
+.nav-items li:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+} */
