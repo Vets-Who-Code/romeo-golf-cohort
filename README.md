@@ -46,3 +46,4 @@ Design: [Imagined by Ken](https://www.figma.com/file/fkgLoyfCUBbHTDOEMlOZFT/VWC-
 
 Component Library: [Radix-UI](https://www.radix-ui.com/docs/primitives/overview/introduction)
 
+Example Product: [Simple Resume Builder](https://resume-builder.techomoro.com)
