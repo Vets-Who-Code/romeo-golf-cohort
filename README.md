@@ -44,6 +44,8 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 
 Design: [Imagined by Ken](https://www.figma.com/file/fkgLoyfCUBbHTDOEMlOZFT/VWC-Resume-Builder?node-id=2%3A40)
 
+Style Guide: [Air BnB](https://airbnb.io/javascript/react/)
+
 Component Library: [Radix-UI](https://www.radix-ui.com/docs/primitives/overview/introduction)
 
 Example Product: [Simple Resume Builder](https://resume-builder.techomoro.com)
