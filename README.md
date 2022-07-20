@@ -6,34 +6,35 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 
 ### Instructors
 
-- Jerome Hardaway
 - [Jerome Hardaway](https://www.twitter.com/jeromehardaway)
 
 ### Students
 
 - Ayola
-
   - [Twitter](https://twitter.com/ayola_uyaphi)
-
   - [Github](https://github.com/AyolaM)
-
   - [Github Project Board](https://github.com/users/AyolaM/projects/1)
+  
 - Cameron
   - [Twitter](https://twitter.com/Agohige_Tech)
-  - [Github](https://github.com/Agohige-Tech)
-  - [Github Project Board](https://github.com/users/Agohige-Tech/projects/1)
+  - [Github](https://github.com/cameron-porter)
+  - [Github Project Board](https://github.com/users/cameron-porter/projects/1)
+  
 - Vanessa
   - [Twitter](https://twitter.com/VWithun)
   - [Github](https://github.com/iNeso1984)
   - [Github Project Board](https://github.com/users/iNeso1984/projects/1)
+  
 - Nick
   - [Twitter](https://twitter.com/instagrumguy) 
   - [Github](https://github.com/Takomane)
   - [Github Project Board](https://github.com/users/Takomane/projects/1)
+  
 - Ryan Rose
   - [Twitter](https://twitter.com/RyanRos79331176)
   - [Github](https://github.com/rmrose78)
   - [Github Project Board](https://github.com/users/rmrose78/projects/1)
+  
 - Kenneth
   - [Twitter](https://www.twitter.com/mrdebonairfox)
   - [Github](https://www.github.com/kbrandon19)
