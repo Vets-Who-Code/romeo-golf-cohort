@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the branch for the Romeo Golf Cohort. It is a group of students who are learning to code.
+This is the branch for the Romeo Golf Cohort. It is a group of students who are learning to code with a focus on frontend development. This repo is designed to house their capstone project. Romeo Golf is a pseudonym for their project: resume generator. This product will help bridge the gap between transitioning veterans and their future tech career.
 
 ### Instructors
 
@@ -38,3 +38,10 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
   - [Twitter](https://www.twitter.com/mrdebonairfox)
   - [Github](https://www.github.com/kbrandon19)
   - [Github Project Board](https://github.com/users/kbrandon19/projects/1)
+
+### Project Resources/References
+
+Design: [Imagined by Ken](https://www.figma.com/file/fkgLoyfCUBbHTDOEMlOZFT/VWC-Resume-Builder?node-id=2%3A40)
+
+Component Library: [Radix-UI](https://www.radix-ui.com/docs/primitives/overview/introduction)
+
