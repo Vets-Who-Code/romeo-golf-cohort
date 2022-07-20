@@ -1,38 +1,223 @@
-.App {
-  text-align: center;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: var(--hashflag-white);
+  color: var(--hashflag-blue);
+  margin: auto 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --hashflag-red: #c5203e;
+  --hashflag-blue: #091f40;
+  --hashflag-white: #fafafa;
+  --secondary-white: #eee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+nav {
+  background-color: var(--hashflag-blue);
+  color: var(--hashflag-white);
+  padding: 1rem;
+  position: fixed;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  justify-content: right;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: block;
+}
+nav > .logo > img {
+  background-color: var(--hashflag-white);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+li span {
+  padding: 0.3rem;
+}
+a {
+  color: var(--hashflag-white);
+}
+i {
+  padding: 1rem;
+}
+.logo {
+  padding: 0.4rem;
+}
+.donate {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #1a51a3;
+  border: none;
+}
+.donate:hover {
+  background-color: var(--hashflag-red);
 }
 
-.App-link {
-  color: #61dafb;
+/*Resume Builder Styles-->*/
+.Container {
+  position: fixed; /* or absolute */
+  top: 30%;
+  left: 5%;
+  
 }
+h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  padding: 20px;
+  
+}
+h3 {
+  color: var(--primary-3);
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 30px;
+  line-height: 1.2em;
+}
+.btn {
+  font-size: 0.875rem;
+  padding: 12px 0;
+  text-align: center;
+  width: 150px;
+  margin: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.05);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.btn-next {
+  background-color: var(--hashflag-red);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--hashflag-white);
 }
