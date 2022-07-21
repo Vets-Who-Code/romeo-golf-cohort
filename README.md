@@ -10,6 +10,10 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 
  `git clone https://github.com/Vets-Who-Code/romeo-golf-cohort.git`
  
+ - Run local host
+ 
+ `npm start`
+ 
  - Create a branch
 
  `git checkout -b issue#/task`
