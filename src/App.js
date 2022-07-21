@@ -1,6 +1,7 @@
 
 import "./App.css";
 import LandingPage from "./Components/LandingPage";
+import PersonalInfo from "./Components/PersonalInfo";
 
 function App() {
   return (
