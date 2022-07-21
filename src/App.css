@@ -110,6 +110,9 @@ body {
   background-color: var(--hashflag-white);
   color: var(--hashflag-blue);
   margin: auto 0;
+  font-family: 'Gotham', sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
 }
 ol,
 ul {
