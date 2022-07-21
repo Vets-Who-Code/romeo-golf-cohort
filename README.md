@@ -12,7 +12,7 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
  
  - Create a branch
 
- `git checkout -b name/task`
+ `git checkout -b issue#/task`
  
  - Add changes to staging
 
@@ -28,7 +28,7 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
  
 ## Always double check your branch before running through add, commit, push. Can do that with:
 
-`git branch` and can then check it out if you aren't in it with `git checkout name/task`
+`git branch` and can then check it out if you aren't in it with `git checkout issue#/task`
 
 If you mistakenly push to Main/Master, don't fret...but use the below to remove that push and then ensure you push it up in a branch:
 
