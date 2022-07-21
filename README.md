@@ -22,7 +22,7 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 
  `git commit -m "message text here"`
  
- - Push up your changes
+ - Push up your commits
 
  `git push`
  
