@@ -1,0 +1,68 @@
+/*
+THIS IS A DUMMY COMPONENT, IT ONLY SERVES AS A DESIGN AID FOR THE PROJECT
+*/
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    background-color: var(--hashflag-blue);
+    color: var(--hashflag-white);
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.logo img{
+    margin-right:5px;
+    border-radius: 25px;
+}
+
+.nav-desktop{
+    display: none;
+}
+
+.nav-mobile{
+display: block;
+}
+
+.ham span{
+    background-color: #000000;
+    width:39px;
+    height:3px;
+    display:block;
+    margin:8px auto;
+}
+
+@media screen and (min-width:768px){
+    .nav-mobile{
+        display:none;
+    }
+
+    .nav-desktop{
+        display: block;
+    }
+
+    .nav-desktop ul li{
+        display: inline;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        margin:0 10px;
+    }
+
+    .nav-desktop ul li a{
+        text-decoration: none;
+        color:#ffffff;
+        padding:20px 12px;
+        background-color: #C5203E;
+        border-radius: 4px;
+    }
+}

@@ -1,16 +1,17 @@
 
 import "./App.css";
-import LandingPage from "./Components/LandingPage";
+import LandingPage from "./Components/LandingPage/LandingPage";
+import Nav from "./Components/Nav/Nav";
 
 function App() {
   return (
     <div className="App">
-      <div className="Container">
-        <LandingPage />
+            <Nav />
+            <LandingPage />
         <a href="./App.js" target="_blank">
-          <button className="btn btn-next">Next</button>
+          <button className="btn btn-next" id="btn-next">Next</button>
         </a>
-      </div>
+    
     </div>
   );
 }

@@ -141,55 +141,10 @@ table {
   --secondary-white: #eee;
 }
 
-nav {
-  background-color: var(--hashflag-blue);
-  color: var(--hashflag-white);
-  padding: 1rem;
-  position: fixed;
 
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  justify-content: right;
-  align-items: center;
-  display: block;
-}
-nav > .logo > img {
-  background-color: var(--hashflag-white);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-li span {
-  padding: 0.3rem;
-}
-a {
-  color: var(--hashflag-white);
-}
-i {
-  padding: 1rem;
-}
-.logo {
-  padding: 0.4rem;
-}
-.donate {
-  padding: 0.5rem;
-  width: 100%;
-  background-color: #1a51a3;
-  border: none;
-}
-.donate:hover {
-  background-color: var(--hashflag-red);
-}
+/* Resume Builder Styles */
 
-/*Resume Builder Styles-->*/
-.Container {
-  position: fixed; /* or absolute */
-  top: 30%;
-  left: 5%;
-  
-}
+
 h1 {
   font-size: 3.75rem;
   font-weight: 700;
