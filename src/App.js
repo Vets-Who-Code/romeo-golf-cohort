@@ -8,9 +8,7 @@ function App() {
     <div className="App">
             <Nav />
             <LandingPage />
-        <a href="./App.js" target="_blank">
-          <button className="btn btn-next" id="btn-next">Next</button>
-        </a>
+
     
     </div>
   );

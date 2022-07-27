@@ -139,43 +139,109 @@ table {
   --hashflag-blue: #091f40;
   --hashflag-white: #fafafa;
   --secondary-white: #eee;
+  --blue:#1a51a3;
 }
 
 
-/* Resume Builder Styles */
+/*Resume Builder Styles-->*/
 
+a{
+  text-decoration: none;
+}
+
+h1#page-title{
+  text-transform: uppercase;
+}
 
 h1 {
-  font-size: 3.75rem;
-  font-weight: 700;
-  padding: 20px;
-  
+  font-size: 3.75rem; /*60px*/
+  font-weight: 600;
+  margin-top: 0;
+}
+
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.625rem; /*42px*/
+  }
+}
+h2 {
+  font-size: 2.625rem; /*42px*/
+}
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 1.875rem; /*30px*/
+  }
 }
 h3 {
-  color: var(--primary-3);
-  font-size: 1.25rem;
+  font-size: 1.875rem; /*30px*/
+}
+@media only screen and (max-width: 500px) {
+  h3 {
+    font-size: 1.3125rem; /*21px*/
+  }
+}
+h4 {
+  font-size: 1.3125rem; /*21px*/
+}
+@media only screen and (max-width: 500px) {
+  h4 {
+    font-size: 0.9375rem; /*15px*/
+  }
+}
+h5 {
+  font-size: 0.9375rem; /*15px*/
+  font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+  h5 {
+    font-size: 0.625rem; /*10px*/
+  }
+}
+h6 {
+  font-size: 0.75rem; /*7.5px*/
+}
+p {
+  font-size: 0.9375rem; /*15px*/
+}
+small {
+  font-size: 0.75rem; /*7.5px*/
+}
+strong {
   font-weight: 700;
-  padding: 30px;
-  line-height: 1.2em;
 }
-.btn {
+b {
+  font-weight: 200 !important;
+}
+
+/* Button Styles */
+
+/* .btn-ld : add extra link / description */
+/* .btn-gr : get started / generate resume */
+/* .btn-cr : create resume */
+
+.btn-gr{
+  width:auto;
+  height:46px;
   font-size: 0.875rem;
-  padding: 12px 0;
-  text-align: center;
-  width: 150px;
-  margin: 30px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  background-color: var(--hashflag-red);
+  
 }
-.btn:hover {
-  transform: scale(1.05);
+
+.btn-ld{
+  height:26px;
+  width:auto;
+  background-color: var(--blue);
+  font-size: 11px;
+  
+}
+
+.btn-cr{
+  height:56px;
+  width:120px;
+  font-size: 0.875rem;
+  background-color: var(--hashflag-red);
+  line-height: 1.3;
 
 }
-.btn-next {
-  background-color: var(--hashflag-red);
-  border: none;
-  border-radius: 4px;
-  font-weight: 700;
-  text-transform: capitalize;
-  color: var(--hashflag-white);
-}
+
