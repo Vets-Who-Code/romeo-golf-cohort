@@ -6,30 +6,34 @@ This is the branch for the Romeo Golf Cohort. It is a group of students who are 
 
 ## Getting Started...
 
- - Clone down the repo
+- Clone down the repo
 
- `git clone https://github.com/Vets-Who-Code/romeo-golf-cohort.git`
- 
- - Run local host
- 
- `npm start`
- 
- - Create a branch
+`git clone https://github.com/Vets-Who-Code/romeo-golf-cohort.git`
 
- `git checkout -b issue#/task`
- 
- - Add changes to staging
+- Run local host
 
- `git add .`
- 
- - Commit your changes
+`npm start`
 
- `git commit -m "message text here"`
- 
- - Push up your commits
+- Create a branch
 
- `git push`
- 
+`git checkout -b issue#/task`
+
+- Add changes to staging
+
+`git add .`
+
+- Commit your changes
+
+`git commit -m "message text here"`
+
+- Push up your commits
+
+`git push`
+
+- Deploy your changes to the gh-pages branch for preview
+
+`npm run deploy`
+
 ## Always double check your branch before running through add, commit, push. Can do that with:
 
 `git branch` and can then check it out if you aren't in it with `git checkout issue#/task`
@@ -70,31 +74,23 @@ Example Product: [Simple Resume Builder](https://resume-builder.techomoro.com)
   - [Twitter](https://twitter.com/ayola_uyaphi)
   - [Github](https://github.com/AyolaM)
   - [Github Project Board](https://github.com/users/AyolaM/projects/1)
-  
 - Cameron
   - [Twitter](https://twitter.com/Agohige_Tech)
   - [Github](https://github.com/cameron-porter)
   - [Github Project Board](https://github.com/users/cameron-porter/projects/1)
-  
 - Vanessa
   - [Twitter](https://twitter.com/VWithun)
   - [Github](https://github.com/iNeso1984)
   - [Github Project Board](https://github.com/users/iNeso1984/projects/1)
-  
 - Nick
-  - [Twitter](https://twitter.com/instagrumguy) 
+  - [Twitter](https://twitter.com/instagrumguy)
   - [Github](https://github.com/Takomane)
   - [Github Project Board](https://github.com/users/Takomane/projects/1)
-  
 - Ryan Rose
   - [Twitter](https://twitter.com/RyanRos79331176)
   - [Github](https://github.com/rmrose78)
   - [Github Project Board](https://github.com/users/rmrose78/projects/1)
-  
 - Kenneth
   - [Twitter](https://www.twitter.com/mrdebonairfox)
   - [Github](https://www.github.com/kbrandon19)
   - [Github Project Board](https://github.com/users/kbrandon19/projects/1)
-
-
-
