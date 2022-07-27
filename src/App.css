@@ -147,6 +147,7 @@ table {
 
 a{
   text-decoration: none;
+  color:inherit
 }
 
 h1#page-title{
@@ -216,17 +217,30 @@ b {
 
 /* Button Styles */
 
-/* .btn-ld : add extra link / description */
-/* .btn-gr : get started / generate resume */
-/* .btn-cr : create resume */
+/* default button styling */
 
-.btn-gr{
-  width:auto;
-  height:46px;
-  font-size: 0.875rem;
-  background-color: var(--hashflag-red);
-  
+.btn{
+  padding: 12px 12px;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--hashflag-white);
 }
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 12px 12px 30px 20px rgba(0,0,0,0.1);
+
+}
+
+/* .btn-ld : add extra link / description */
 
 .btn-ld{
   height:26px;
@@ -235,6 +249,15 @@ b {
   font-size: 11px;
   
 }
+/* .btn-gr : get started / generate resume */
+
+.btn-gr{
+  width:auto;
+  height:46px;
+  font-size: 0.875rem;
+  background-color: var(--hashflag-red); 
+}
+/* .btn-cr : create resume */
 
 .btn-cr{
   height:56px;
