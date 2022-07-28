@@ -1,10 +1,14 @@
 import React from "react";
 import '../LandingPage/LandingPage.css';
 import RightArrow from '../../images/right-arrow.png';
+import { useNavigate } from "react-router-dom"; 
+
 
 
 export default function LandingPage() {
+  const navigate = useNavigate()
   return (
+  
     <>
       <div className="container">
         <div className="landing-text">
@@ -19,8 +23,8 @@ export default function LandingPage() {
   
           <p>Custom-tailor resumes for any job within minutes! Build an easily custimizable and simple resume in a few clicks!</p>
           <div className="landing-btn">
-            <a href="./App.js" target="_blank">
-            <button className="btn btn-gr">Get Started 
+            <a href="../PersonalInfo/" >
+            <button className="btn btn-gr" onClick={()=> navigate(1)}>Get Started 
             <img src={RightArrow} alt="" id="right-arrow" />
             </button>
            
