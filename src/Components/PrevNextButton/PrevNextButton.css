@@ -4,5 +4,15 @@
   height:46px;
   font-size: 0.875rem;
   background-color: var(--hashflag-red);
+   align-self: center;
+  margin-top: auto; 
   
 }
+
+#btn-next{
+  padding:10px 20px;
+}
+#btn-blank{
+  padding:10px 20px
+}
+img{margin-left:8px}
